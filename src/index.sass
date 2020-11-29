@@ -1,0 +1,55 @@
+*
+  box-sizing: border-box
+body
+  margin: 0
+  font-family: "open sans", serif
+  .App_parent
+    background-color: #eee
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    .div_form
+      background-color: #19331d
+      padding: 50px 
+      color: #fff 
+      height: 85vh
+      margin: auto 
+      input[type="text"]
+        font-size: 20px
+        background-color: transparent
+        outline: none
+        margin-bottom: 10px
+        display: block
+        width: 100%
+        border: 0
+        border-bottom: 1px solid #ccc
+        padding-bottom: 10px
+        margin-right: 10xp
+        color: #fff
+        &:focus
+          background-color: none
+      button
+        display: block
+        width: 70%
+        margin: auto
+        outline: none
+        border: 0
+        color: #fff
+        background-color: #000
+        padding: 5px
+        font-size: 20px
+        border-radius: 20px
+        cursor: pointer
+        margin-top: 30px
+      .info_key
+        border-bottom: 1px solid #000
+        width: 70%
+        padding-bottom: 5px
+        &:last-of-type
+          border: 0
+        .info_value
+          display: inline-block
+          margin-left: 15px
+          color: #ccc
+          font-size: 17px
